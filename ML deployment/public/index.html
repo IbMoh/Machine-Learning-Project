@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Total Project Cost</title>
+</head>
+<body>
+    <h1>Total Project Cost</h1>
+    <form id="predictionForm">
+        <label for="bridgeImprovementCost">Bridge Improvement Cost:</label>
+        <input type="number" step="any" id="bridgeImprovementCost"><br><br>
+
+        <label for="numberOfSpans">Number of Spans in Main Unit:</label>
+        <input type="number" step="any" id="numberOfSpans"><br><br>
+
+        <label for="roadwayImprovementCost">Roadway Improvement Cost:</label>
+        <input type="number" step="any" id="roadwayImprovementCost"><br><br>
+
+        <label for="latitude">Latitude (decimal):</label>
+        <input type="number" step="any" id="latitude"><br><br>
+
+        <label for="humidity">Average Relative Humidity:</label>
+        <input type="number" step="any" id="humidity"><br><br>
+
+        <label for="horizontalClearance">Inventory Route Total Horizontal Clearance (ft.):</label>
+        <input type="number" step="any" id="horizontalClearance"><br><br>
+
+        <label for="structureLength">Structure Length (ft.):</label>
+        <input type="number" step="any" id="structureLength"><br><br>
+
+        <label for="outToOut">Out to Out (ft.):</label>
+        <input type="number" step="any" id="outToOut"><br><br>
+
+        <label for="deckArea">Deck Area (sq. ft.):</label>
+        <input type="number" step="any" id="deckArea"><br><br>
+
+        <button type="button" onclick="fetchPrediction()">Get Prediction</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
