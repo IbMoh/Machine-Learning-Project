@@ -60,7 +60,7 @@ Final Choice for deployment: Decision Tree Regressor
 We deployed the model via a lightweight Flask API (Api.py) for use in real-world applications.
 
 ## Running the API locally:
-
+```
 ### 1. Clone the repo
 git clone https://github.com/IbMoh/Machine-Learning-Project.git
 cd Machine-Learning-Project
@@ -77,3 +77,4 @@ python Api.py
 ## Node.js Frontend:
 npm install
 npm start
+```
