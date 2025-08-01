@@ -61,20 +61,21 @@ We deployed the model via a lightweight Flask API (Api.py) for use in real-world
 
 ## Running the API locally:
 ```
-### 1. Clone the repo
+1. Clone the repo
 git clone https://github.com/IbMoh/Machine-Learning-Project.git
 cd Machine-Learning-Project
 cd ML deployment
 
-#### 2. Set up Python environment
+2. Set up Python environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-### 3. Start the Flask API
+3. Start the Flask API
 python Api.py
-
+```
 ## Node.js Frontend:
+```
 npm install
 npm start
 ```
