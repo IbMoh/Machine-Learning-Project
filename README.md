@@ -8,7 +8,8 @@ This project focuses on developing and deploying machine learning models to pred
 National Bridge Inventory. By leveraging regression models and careful feature engineering, we aim to assist planners and engineers in
 more accurate budgeting and forecasting for bridge construction
 
-# Structure
+#Structure
+```
 .
 ├── Jupytr Notebook/
 |       ├── Last_Year_All_Field_Bridges.csv         # Full bridge dataset (raw)
@@ -29,7 +30,7 @@ more accurate budgeting and forecasting for bridge construction
 |
 ├── Feature details.odt                     # Full feature descriptions (manual analysis)
 └── ML Report - Group 27.pdf                # Full academic report
-
+```
 # Problem Statement
 Predict the Total Bridge Cost using a regression model based on 143 features in the bridge dataset. These include:
 
@@ -45,7 +46,7 @@ Predict the Total Bridge Cost using a regression model based on 143 features in 
 | **K-Nearest Neighbors (KNN)** | Baseline model; lowest accuracy                         |
 | **Decision Tree**             | Best overall performance (lowest MAE/MSE, highest R²)   |
 | **Random Forest**             | Close second to Decision Tree                           |
-└─────────────────────────────────────────────────────────────────────────────────────────┚
+
 Final Choice for deployment: Decision Tree Regressor
 
 # Preprocessing Summary
